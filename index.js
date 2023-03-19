@@ -1,6 +1,7 @@
 // Write your code here!
 document.querySelector('main#main')
-document.querySelector('main#main').remove();
-const newHeader = document.createElement("H1");
-const H1= document.getElementById("victory");
-  document.body.insertBefore(H1);
+document.querySelector('main').remove();
+const newHeader = document.createElement("h1");
+h1.createElement="victory";
+newHeader.innerHTML =
+"<h1>YOUR-NAME is the champion</h1>";
